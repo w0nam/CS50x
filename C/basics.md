@@ -18,6 +18,7 @@ Loops are not that hard either, there is 3 types of loops:
   - While
   - For
   - Do-While
+
 I have only seen 'while' and 'for' for now, 'for' has the advantage of initializing a variable directly, exemple:
 (If using the printf function in the loop, you could print i++ (0 to 10).
 for(int i = 0; i <=10; i++)
