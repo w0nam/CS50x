@@ -19,16 +19,8 @@ Loops are not that hard either, there is 3 types of loops:
   - For
   - Do-While
 I have only seen 'while' and 'for' for now, 'for' has the advantage of initializing a variable directly, exemple:
-for loop with initialized int i variable:
-#include <stdio.h>
+(If using the printf function in the loop, you could print i++ (0 to 10).
+for(int i = 0; i <=10; i++)
 
-int main()                              //Main functions of our program<br/>
-{
-    for(int i = 0; i <= 10; i++)        //"for (initialize variable type 'int', name "i", value "0". Conditional "if 'i' is less or equal to '10', then 'i++'" (i++ means increments 'i')<br/>
-    {
-      printf("%i\n", i);                //"printf" or "Print Function", "%i" is used to print and integer (number), "\n" is used to get line after an integer is printed, i is the variable to get the integer from.<br/>
-    }
-    return 0;                           //return 0 if the program went well, return 1 otherwise. (could have used "int main(void) but meh...<br/>
-}<br/>
 
 C may be complicated at first, but honestly not that much. I will continue to learn it even after my CS50x certificate.
